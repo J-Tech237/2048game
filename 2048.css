@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+hr {
+    width: 500px;
+}
+#board {
+    width: 400px;
+    height: 400px;
+    background-color: #cdc1b5;
+    border: 7px solid #edede0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+h1 {
+    font-size: 70px;
+    color: #776e65;
+}
+.scoreElementContainer {
+    width: 700px;
+    height: 100px;
+    background-color: #8f7a66;
+    border-radius: 70px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#newGame {
+    width: 160px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    background-color: #8f7a66;
+    color: #f9f6f2;
+    border: 5px solid; 
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #edede0;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.value2 {
+    color: rgb(119, 110, 101);
+    background-color: #eee4da;
+}
+.value4 {
+    color: rgb(119, 110, 101);
+    background-color: #eee1c9;
+}
+.value8 {
+    color: #f9f6f2;
+    background-color: #f3b27a;
+}
+.value16 {
+    color: #f9f6f2;
+    background-color: #f69664;
+}
+.value32 {
+    color: #f9f6f2;
+    background-color: #f77c5f;
+}
+.value64 {
+    color: #f9f6f2;
+    background-color: #f75f3b;
+}
+.value128 {
+    color: #f9f6f2;
+    background-color: #edd073;
+}
+.value256 {
+    color: #f9f6f2;
+    background-color: #edcc62;
+}
+.value512 {
+    color: #f9f6f2;
+    background-color: #edc950;
+}
+.value1024 {
+    color: #f9f6f2;
+    background-color: #edc53f;
+    font-size: 40px;
+}
+.value2048 {
+    color: #f9f6f2;
+    background-color: #edc22e;
+    font-size: 40px;
+}
+.value4096 {
+    color: #f9f6f2;
+    background-color: #edc22e;
+    font-size: 40px;
+}
